@@ -98,6 +98,8 @@ export function eventsMixin (Vue: Class<Component>) {
     // specific handler
     let cb
     let i = cbs.length
+
+    //memeda
     while (i--) {
       cb = cbs[i]
       if (cb === fn || cb.fn === fn) {
